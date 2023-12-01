@@ -7,7 +7,6 @@ namespace PortalInovacao.Api.ViewModels
     {
         public Guid Id { get; set; }
         public string CNPJ { get; set; }
-        public string BusinessName { get; set; }
         public string TradeName { get; set; }
         public AddressForUpdateViewModel Address { get; set; }
         public string Email { get; set; }
